@@ -5,6 +5,7 @@ mlruns/
 
 # Data
 data/
+!data/housing.csv
 
 # Python
 __pycache__/
