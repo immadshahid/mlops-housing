@@ -23,6 +23,8 @@ jobs:
         mkdir -p models
 
     - name: Train Model
+      env:
+        PYTHONPATH: src
       run: |
         python src/train.py
 
