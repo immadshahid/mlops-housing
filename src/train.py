@@ -4,7 +4,7 @@ import joblib
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-from src.preprocess import load_data
+from preprocess import load_data
 
 X, y = load_data("data/housing.csv")
 
